@@ -1,0 +1,11 @@
+{
+  "project_name": "BigQuery ETL Template",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "big_query_project": "project",
+  "big_query_dataset": "dataset",
+  "table_slug": "{{ cookiecutter.project_slug }}",
+  "view_slug": "{{ cookiecutter.table_slug + '__view' }}",
+  "procedure_slug": "{{ cookiecutter.table_slug + '__procedure' }}",
+  "author": "John"
+}
+
